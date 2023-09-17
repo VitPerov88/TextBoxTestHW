@@ -12,7 +12,6 @@ public class SearchExampleJU {
     static void beforeAll() {
         Configuration.pageLoadStrategy = "eager";
         Configuration.holdBrowserOpen = false;
-        Configuration.baseUrl = "https://demoqa.com";
         Configuration.browserSize = "1500x980";
     }
 
@@ -50,7 +49,7 @@ public class SearchExampleJU {
                 text("9800000000"),
                 text("2 October,1988"),
                 text("Economics"),
-        //        text("photo.jpg"),
+                text("photo.jpg"),
                 text("Russia"),
                 text("NCR Delhi")
         );
